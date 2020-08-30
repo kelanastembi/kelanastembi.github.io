@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <title>PDKS 2018 | Official Website Kelana Stembi</title>
+  </head>
+  <style>
+    .container {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .dropdown:hover> .dropdown-menu{
+        display: block;
+    }
+    .navbar {
+        margin-left:12%;
+    }
+    .navbar ul li {
+        margin-right: 15px;        
+    }    
+    .dropdown-item {
+        color: #fff;
+    }
+    .dropdown-item:hover {
+        color: darkorange;
+        background-color: transparent;
+        transform: translateX(15px);
+    }
+    .navbar a {
+        margin-right: 15px;
+    }
+    .nav-link {
+        color: #fff;
+    }
+    .nav-link:hover {
+        color: darkorange;
+    }
+    .nav-link span {
+        color: darkorange;
+    }
+    .navbar-nav > li > .dropdown-menu { 
+        background-color: #666; 
+    }
+    .call, .alamat, .email {
+        color: #666;
+    }
+    .btn:hover {
+        color: darkorange;
+        transform: scale(1.05);
+    }
+    .captionberita li {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+    .artikel {
+        padding-top: 50px;
+    }
+
+    @media (max-width:768px) {
+        .latsheader {
+            background-color: #eaeaea;
+            color: darkorange;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .latestnews {   
+            padding-top: 10px;
+        }
+        .col-md-9 {
+            margin-left: 15px;
+        }
+        .berita1 h5 {
+            margin-top: 5px;
+        }
+        .artikel {
+            padding-top: 0;
+        }
+        .card-title {
+            margin-left: 2px;
+        }
+        .card-text {
+            margin-left: -2px;
+        }
+    }
+
+    </style>
+    
+  <body>
+    <!-- loader -->
+    <div class="bg-loader">
+        <img src="img/kompas.png" alt="kompas">
+        <div class="loader"></div>
+    </div>
+    <!-- navbar -->
+    <div class="logo fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg></span>
+        </button>
+            <a href="index.html"><img class="center" src="img/logo.png" class="img-fluid" alt="Responsive image"></a>        
+            <nav class="navbar navbar-expand-lg navbar">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">BERANDA<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    ARTIKEL
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="artikelkemanusiaan.html">KEMANUSIAAN</a>
+                                    <a class="dropdown-item" href="#">PENJELAJAHAN</a>
+                                    <a class="dropdown-item" href="#">PENDIDIKAN</a>
+                                    <a class="dropdown-item" href="#">LINGKUNGAN</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    JELAJAH
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">EKSPEDISI PUNCAK SOLEH</a>
+                                    <a class="dropdown-item" href="#">EKSPEDISI GUNUNG KANCANA</a>
+                                    <a class="dropdown-item" href="#">EKSPEDISI GUNUNG SANGARA</a>
+                                </div>
+                            </li>                    
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    PDKS
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="pdks2019.html">PDKS 2019</a>
+                                    <a class="dropdown-item" href="pdks2018.html">PDKS 2018</a>
+                                    <a class="dropdown-item" href="pdks2017.html">PDKS 2017</a>
+                                    <a class="dropdown-item" href="pdks2016.html">PDKS 2016</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button">
+                                    TIPS
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    GALERI
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">2019</a>
+                                    <a class="dropdown-item" href="#">2018</a>
+                                    <a class="dropdown-item" href="#">2017</a>
+                                    <a class="dropdown-item" href="#">2016</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    PETA
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="xpeta.html" id="navbarDropdown">RBI JAWA BARAT</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button">
+                                    INFO-AGENDA
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#kontak" id="navbarDropdown" role="button">
+                                    KONTAK
+                                </a>
+                            </li>                 
+                        </ul>
+                </div>
+            </nav>
+    </div>  
+
+       
+    <!-- end navbar -->
+
+    <!-- Artikel -->
+    <div class="artikel">
+        <div class="container">
+            <div class="artikelutama">
+                <h3 clas="judulartikel">Pendaftaran PDKS 2018</h3>
+                <ul class="captionartikel">
+                    <li><i class="fa fa-clock-o"></i> 01 Okt 2018 </li>
+                    <li><i class="fa fa-eye"></i>104</li>
+                    <li><i class="fa fa-heart-o"></i>46</li>
+                    <li><i class="fa fa-user"></i> Posting oleh Kelana Stembi</li>
+                    <li>Kategori : Pendidikan</li>
+                </ul>
+                <hr>
+                <div class="row no-gutters">
+                    <div class="col-md-3">
+                    <img src="img/pdks/2018/FLYER PDKS 2018.jpg" class="card-img"  alt="...">
+                    </div>
+                    <div class="col-md-9">
+                        <p class="card-text">Pendaftaran pendidikan dasar kelana stembi 2018 telah dibuka mulai dari 01 - 31 Oktober 2018.</p>
+                        <p style="text-align:right;">
+                            <button class="btn btn-light"><a href="pendaftaranpdks2018.html">Read More</a></button>
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <h3 clas="judulartikel">COMING SOON PDKS 2018!</h3>
+                <ul class="captionartikel">
+                    <li><i class="fa fa-clock-o"></i> 19 Sep 2018 </li>
+                    <li><i class="fa fa-eye"></i>98</li>
+                    <li><i class="fa fa-heart-o"></i>76</li>
+                    <li><i class="fa fa-user"></i> Posting oleh Kelana Stembi</li>
+                    <li>Kategori : Pendidikan</li>
+                </ul>
+                <hr>
+                <div class="row no-gutters">
+                    <div class="col-md-3">
+                    <img src="img/pdks/2018/LOGO PDKS 2018.png" class="card-img" alt="02">
+                    </div>
+                    <div class="col-md-9">
+                        <p class="card-text">Unit Kegiatan Mahasiswa (UKM) Kelana Stembi adalah organisasi pendidikan yang menempa mahasiswa-mahasiswi STIE STEMBI Bandung supaya memiliki jiwa patriotisme, tangguh dan percaya pada diri sendiri melalui kegiatan yang menggunakan alam terbuka sebagai media, salah satu kegiatan tersebut adalah penerimaan anggota yang disebut Pendidikan Dasar Kelana Stembi (PDKS) 2018.</p>
+                            <p style="text-align:right;">
+                                <button class="btn btn-light"><a href="segerapdks2018.html">Read More</a></button>
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="latestnews">
+                <div class="latsheader rounded">
+                <h3 clas="judulberita">Berita Terkini</h3>
+                </div> 
+                <div class="berita1"><a class="btn borderless" href="#gbr-1" data-toggle="modal">
+                    <img src="img/news/1.jpg" class="card-img" alt="1">
+                    <h5>Pembukaan Mabim</h5>
+                </a>
+                </div>
+                <hr>
+                <div class="berita1"><a class="btn borderless" href="#gbr-3" data-toggle="modal">
+                    <img src="img/news/3.jpg" class="card-img" alt="3">
+                    <h5>Lat. Navigasi Darat I Angkatan Api-Rawa</h5>
+                </a>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="gbr-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="gbr-1">Pembukaan Mabim Angkatan Topan Bara</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                    <img src="img/news/full/1.jpg" alt="1"> 
+                </div>
+                    <div class="card border-light mb-3" style="max-width: 22.5rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Jum'at, 21 Februari 2020</h5>
+                          <p class="card-text">Upacara pembukaan Masa Bimbingan Anggota muda kelana STEMBI angkatan Topan Bara telah resmi dibuka !! Kita akan melatih diri, tujuan harus dibuat jelas terutama bagi diri sendiri tidaklah datang untuk menaklukkan alam tetapi datang untuk mengakrabkan diri.<br>
+                            Tak dipimpin dalam jangka mudah dan lunak tetapi dalam desakan, kesulitan dan tantangan.<br>
+                            #MasaBimbingan<br>
+                            #Kelana_stembi</p>
+                        </div>
+                  </div>
+                  </div>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="gbr-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="gbr-3">Latihan Navigasi Darat I Angkatan Api-Rawa</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                    <img src="img/news/full/3.jpg" alt="2"> 
+                </div>
+                    <div class="card border-light mb-3" style="max-width: 22.5rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Minggu, 08 Maret 2019</h5>
+                          <p class="card-text">Dan kini kita harus berjalan. Menyusuri perjalanan ini. Dan kini kita harus berjuang. Menempuh perjuangan ini<br>
+                            Pernahkah kita menyerah karena lelah? Patutkah kita surut ketika takut? Reguklah semua yang ada, Tanamkanlah di dalam jiwa Ini bukan langkah yang terakhir. Latih selalu tempa selalu
+                            Seret saja badan lemahku. Kearah matahari terbenam. Oh sodaraku, Tidak patut bagiku menyerah karena lelah! Hina bagiku surut ketika takut Maka akan kuterikan dengan lantang Aku masih mampu Aku akan selesaikan perjuangan ini.<br>
+                            
+                            Doc. Navigasi Darat
+                            Loc : G. Burangrang
+                            Waktu : 7-8 Maret 2019</p>
+                        </div>
+                  </div>
+              </div>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Artikel -->
+
+    <!-- Kontak -->
+
+    <div class="kontak bg-light">
+        <div class="container">
+            <h3>Kontak Kami</h3>
+            <div class="boxmedsos"> 
+                <div class="box-2">
+                    <h5 class="col-wa"><i class="fab fa-whatsapp"></i></h5>                    
+                        <a class="btn call" href="tel://6281214598490" class="call">+6281212121212</a>
+                </div>
+                <div class="box-2">
+                    <h5 class="col-alamat"><i class="fas fa-map-marker-alt"></i></h5>                     
+                        <a class="btn alamat" href="https://goo.gl/maps/CiJsjCrzoANXUD896" class="alamat">Kampus II STIE STEMBI Bandung, Jl. Buah Batu No.26 Bandung</a> 
+                </div>
+                <div class="box-2">
+                    <h5 class="col-email"><i class="fas fa-envelope-open-text"></i></h5>                     
+                        <a class="btn email" href="mailto:humas@kelanastembi.or.id" class="email">humas@kelanastembi.or.id</a>
+                </div>
+                
+                <div class="box-2">
+                        <h4 class="col-medsos">Sosial Media</h4> 
+                        <div class="medsos">                   
+                            <a href="https://web.facebook.com/kelanastembi" class="icon-contact"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/kelana_stembi/?hl=id" class="icon-contact"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/channel/UCWNX5X24Oe9uojAM_xqA7Dg" class="icon-contact"><i class="fab fa-youtube"></i></a>
+                        </div> 
+                </div>
+            </div> 
+        </div>
+    </div>
+    
+    <!-- End Contact -->
+
+    <!-- Copyright -->
+    <div class="footer">
+        <div class="container">
+            <p>Copyright &copy 2020 Allright Reserved by <span>Kelana Stembi</span></p>
+        </div>
+    </div>
+
+    <!-- Copyright -->
+
+    <script type="text/JavaScript">
+        $(document) .ready(function(){
+            $(".bg-loader") .hide();
+        })
+        </script>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
